@@ -1,0 +1,15 @@
+"context-menu":
+  "atom-text-editor": [
+    "label": "Monterey Signal"
+    "command": "atom-monterey-connector:signal"
+  ]
+"menu": [
+  "label": "Packages"
+  "submenu": [
+    "label": "atom-monterey-connector"
+    "submenu": [
+      "label": "Signal"
+      "command": "atom-monterey-connector:signal"
+    ]
+  ]
+]

@@ -1,0 +1,22 @@
+# This file is used by Flex Tool Bar to create buttons on your Tool Bar.
+# For more information how to use this package and create your own buttons,
+#   read the documentation on https://atom.io/packages/flex-tool-bar
+
+[
+  {
+    type: "spacer"
+  }
+  {
+    type: "button"
+    icon: 'comment-discussion'
+    callback: "atom-monterey-connector:signal"
+    tooltip: "Send a message"
+  }
+
+  {
+    type: "button"
+    icon: "comment"
+    callback: "atom-monterey-connector:return-size"
+    tooltip: "Return the size"
+  }
+]

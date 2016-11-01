@@ -10,6 +10,13 @@
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
+  "consumedServices": {
+    "atom-toolbar": {
+      "versions": {
+        "^1.0.0": "consumeToolbar"
+      }
+    }
+  },
   "dependencies": {
   }
 }

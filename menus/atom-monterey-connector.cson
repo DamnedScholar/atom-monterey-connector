@@ -1,15 +1,30 @@
 "context-menu":
   "atom-text-editor": [
-    "label": "Monterey Signal"
-    "command": "atom-monterey-connector:signal"
+    label: "Monterey Connector"
+    submenu: [
+      {
+        label: "Signal Atom to Resize"
+        command: "atom-monterey-connector:signal"
+      }
+      {
+        label: "Return Size"
+        command: "atom-monterey-connector:return-size"
+      }
+    ]
   ]
 "menu": [
-  "label": "Packages"
-  "submenu": [
-    "label": "atom-monterey-connector"
-    "submenu": [
-      "label": "Signal"
-      "command": "atom-monterey-connector:signal"
+  label: "Packages"
+  submenu: [
+    label: "Monterey Connector"
+    submenu: [
+      {
+        label: "Signal Atom to Resize"
+        command: "atom-monterey-connector:signal"
+      }
+      {
+        label: "Return Size"
+        command: "atom-monterey-connector:return-size"
+      }
     ]
   ]
 ]
